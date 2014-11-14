@@ -61,6 +61,7 @@
                 {% endif %}
             {% endfor %}
 
+            {% comment %}
             {% if site.github.repo != false %}
                 <li class="sidebar-nav-item"><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a></li>
                 <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
@@ -68,6 +69,7 @@
             {% if site.version != false %}
                 <li class="sidebar-nav-item">Currently v{{ site.version }}</li>
             {% endif %}
+            {% endcomment %}
             </ul>
 
             <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
