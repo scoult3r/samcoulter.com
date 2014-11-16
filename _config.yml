@@ -8,9 +8,9 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : System in the Rain
-tagline: "Sam Coulter\'s Home on the Web"
-description: "Sam Coulter\'s Home on the Web"
+title : Sam Coulter
+tagline: "Systems in the Rain"
+description: "Systems in the Rain"
 author :
   name : Sam Coulter
   email : sam.w.coulter@gmail.com
