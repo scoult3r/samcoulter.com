@@ -29,6 +29,19 @@
         <!-- RSS -->
         <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
        
+        <!-- Custom Tagline JS -->
+        <script>
+        function generateRandomTag() {
+            var tags = [
+            {% for tagline in site.data.taglines %}
+                        "{{tagline.line}}", 
+                        {% endfor %}
+                        "Default"];
+            var string = tags[Math.floor(Math.random()*tags.length)];
+            document.getElementById("randomtag").innerHTML = "Successful!";
+        }
+        window.onload = generateRandomTag;
+        </script>
     </head>
 
     <body class="theme-custom">
@@ -39,6 +52,7 @@
             <div class="sidebar-about">
                 <h1>{{ site.title }}</h1>
                  <p class="lead">{{ site.description }}</p>
+                 <p class="lead" id="randomtag">{{site.description}}</p>
             </div>
 
             <ul class="sidebar-nav">
