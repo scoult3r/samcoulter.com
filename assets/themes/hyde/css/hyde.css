@@ -243,9 +243,13 @@ a.sidebar-nav-item:focus {
   background-color: -moz-linear-gradient(bottom left, #0073E6 , #003366); /* For Firefox 3.6 to 15 */
   background-color: linear-gradient(to bottom left, #0073E6 , #003366); /* Standard syntax */
 }
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
+.theme-custom .content a,
+.theme-custom .related-posts li a:hover {
   color: #0066CC;
+}
+
+.theme-custom {
+  background-color: #FAFAFA;
 }
 
 /* Magenta */
