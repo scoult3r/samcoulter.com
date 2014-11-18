@@ -36,9 +36,9 @@
             {% for tagline in site.data.taglines %}
                         "{{tagline.line}}", 
                         {% endfor %}
-                        "Default"];
+                        "{{site.description}}"];
             var string = tags[Math.floor(Math.random()*tags.length)];
-            document.getElementById("randomtag").innerHTML = "Successful!";
+            document.getElementById("randomtag").innerHTML = string;
         }
         window.onload = generateRandomTag;
         </script>
@@ -51,7 +51,6 @@
         <div class="container">
             <div class="sidebar-about">
                 <h1>{{ site.title }}</h1>
-                 <p class="lead">{{ site.description }}</p>
                  <p class="lead" id="randomtag">{{site.description}}</p>
             </div>
 
