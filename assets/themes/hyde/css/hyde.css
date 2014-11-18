@@ -233,7 +233,15 @@ a.sidebar-nav-item:focus {
 
 /* Custum Blue */
 .theme-custom .sidebar {
-  background-color: #0066CC;
+  /*background-color: #0066CC;*/
+  background: -webkit-linear-gradient(left top, #0073E6 , #003366); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom left, #0073E6 , #003366); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom left, #0073E6 , #003366); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom left, #0073E6 , #003366); /* Standard syntax */
+  background-color: -webkit-linear-gradient(left top, #0073E6 , #003366); /* For Safari 5.1 to 6.0 */
+  background-color: -o-linear-gradient(bottom left, #0073E6 , #003366); /* For Opera 11.1 to 12.0 */
+  background-color: -moz-linear-gradient(bottom left, #0073E6 , #003366); /* For Firefox 3.6 to 15 */
+  background-color: linear-gradient(to bottom left, #0073E6 , #003366); /* Standard syntax */
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
