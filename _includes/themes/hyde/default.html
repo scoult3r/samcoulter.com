@@ -38,7 +38,9 @@
                         {% endfor %}
                         "{{site.description}}"];
             var string = tags[Math.floor(Math.random()*tags.length)];
-            document.getElementById("randomtag").innerHTML = string;
+            if (Math.floor(Math.random()*100) > 50) {
+                document.getElementById("randomtag").innerHTML = string;
+            }
         }
         window.onload = generateRandomTag;
         </script>
