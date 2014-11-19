@@ -155,9 +155,10 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
+  color: #003366;
   background-color: #f9f9f9;
   border-radius: 3px;
+  font-weight: bold;
 }
 pre {
   display: block;
