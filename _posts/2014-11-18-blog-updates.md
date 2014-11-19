@@ -18,10 +18,10 @@ I ended up implementing the random taglines with a single javascript function, c
 	{% highlight javascript linenos %}
 	{% raw %}
 	var tags = [
-            {% for tagline in site.data.taglines %}
-                        "{{tagline.line}}", 
-                        {% endfor %}
-                        "{{site.description}}"];
+    {% for tagline in site.data.taglines %}
+    	"{{tagline.line}}", 
+    {% endfor %}
+    	"{{site.description}}"];
     {% endraw %}
     {% endhighlight %}
 
