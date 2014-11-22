@@ -13,6 +13,8 @@ I was ultimately inspired to do so after reading [a post](http://www.reddit.com/
 
 I'm currently looking for my first post-graduation position and I think every soon-to-be engineering grad feels some *anxiety* during that job search, even if they do have a few successful internships under their belt.
 
+<!--more-->
+
 Now, I don't quite have the ego to consider myself a [Larry Page](https://groups.google.com/forum/#!msg/comp.lang.java/aSPAJO05LIU/ushhUIQQ-ogJ), [Linus Torvolds](https://groups.google.com/forum/#!msg/comp.os.minix/dlNtH7RRrGA/SwRavCzVE7gJ), or [Vladimir Kajalin](https://groups.google.com/forum/m/#!topic/comp.graphics.api.opengl/_MslsWO7LL0), but it is still incredibly comforting to see that a few giants left some footprints small enough for my feet.
 
 
