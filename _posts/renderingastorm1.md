@@ -34,4 +34,4 @@ Forward Rendering often runs into problems when there are variable number of lig
     1. Perform vertex transformations lighting area geometry (Lighting Vertex Shader)
     2. Combine lighting information with saved geometry information to calculate final pixel colour (Lighting Fragment Shader)
 
-The key to deferred rendering is the Geometry Buffer, where we save all information about visible objects, and only visible objects. In my next post we'll cover the specific contents of the Geometry Buffer as well as how to create/use one with C++ and Opengl 3.3
+The key to deferred rendering is the Geometry Buffer, where we save all information about visible objects, and only visible objects. In my next post we'll cover the specific contents of the Geometry Buffer as well as how to create/use one with C++ and OpenGL 3.3
