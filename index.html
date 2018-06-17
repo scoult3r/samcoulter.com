@@ -1,21 +1,26 @@
----
-layout: default
----
- 
-<!--<h3>Latest Post</h3>-->
-{% for post in site.posts limit:1 %}
-  <a href="{{ post.url }}">
-  <h1>{{ post.title }}</h1></a>
-  <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
-  <div>{{ post.excerpt }}</div>
-  <a href="{{ post.url }}"><b>continue reading...</b></a>
-{% endfor %}
-<!--<h1>Recent Posts</h1>-->
-{% for post in site.posts offset:1 limit:3 %}
-  <hr>
-  <a href="{{ post.url }}">
-  <h2>{{ post.title }}</h2></a>
-  <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
-  <div>{{ post.excerpt }}</div>
-  <a href="{{ post.url }}"><b>continue reading...</b></a>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sam Coulter</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link href="solarized.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <b>Sam Coulter</b>
+      <br>
+      contact: <a href="mailto:sam@samcoulter.ca">sam@samcoulter.ca</a>
+      <br>
+      resume: <a href="http://www.samcoulter.com/samcoulter.pdf">pdf</a>
+      <br>
+      github: <a href="https://www.github.com/scoult3r">scoult3r</a>
+      <br>
+      other: <a href="https://www.linkedin.com/in/sam-coulter-b093b853/">linkedin</a>
+      <br>
+      about:
+      <Code>
+        I am a software engineer currently living in Vancouver, BC.<br>
+      </Code>
+    
+  </body>
+</html>
