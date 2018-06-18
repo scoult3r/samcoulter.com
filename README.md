@@ -1,3 +1,3 @@
-# Sam Coulter's Website/Blog
+# Sam Coulter's Website
 
-Built on Jekyll, Jekyll-Bootstrap, and the [poole/hyde](https://github.com/poole/hyde) theme.
+Very simple sir, yes very good!
